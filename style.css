@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/*  font-family: 'Poppins', sans-serif; */
+/*  Colors 
+Purple: #F23779
+Bright-Orange: #FF6803
+Orange: #FFA62E
+black: #252525
+*/
+
+/* Font 
+Poppins
+*/
+
+/* Utilities start */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+html body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Utilities end */
+
+/* Navbar start */
+#navbar {
+    border-bottom: 1px solid gray;
+    width: auto;
+    display: flex;
+    height: 4.438rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li a {
+    text-transform: uppercase;
+    color: #252525;
+    margin-right: 1.125rem;
+}
+
+#search-icon {
+    margin-right: 1.875rem;
+    font-size: 1.125rem;
+}
+
+#button-top {
+    border: 1px solid #FF6803;
+    width: 139px;
+    height: 42px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #252525;
+    border-radius: 5px;
+}
+
+/* Navbar end */ 
+/* Background: Height adjusted so that showcase fits screen view upon opening website */
+#bg {
+    position: absolute;
+    top: 0;
+    left: -350px;
+    height: 100vh;
+    width: 2000px;
+    z-index: -1;
+}
+/* Background */
