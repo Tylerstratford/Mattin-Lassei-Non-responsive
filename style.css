@@ -276,14 +276,6 @@ ul li a {
     grid-row: 1/5;
 }
 
-.box4-s3 {
-    grid-column: 3/5;
-    font-size: 1.9rem;
-    height: 100px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    line-height: 2rem;
-}
 #box4-s3 {
     grid-column: 3/5;
     font-size: 1.9rem;
