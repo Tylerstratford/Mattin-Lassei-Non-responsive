@@ -5,7 +5,7 @@
 Purple: #F23779
 Bright-Orange: #FF6803
 Orange: #FFA62E
-black: #252525
+Dark: #252525
 */
 
 /* Font 
@@ -26,6 +26,7 @@ html body {
     font-size: 16px;
     line-height: 1.5;
     overflow-x: hidden;
+    color: #252525;
 }
 
 .container {
@@ -119,6 +120,7 @@ ul li a {
 #showcase-1 p {
     font-size: 0.8rem;
     font-style: light;
+    color: #57647C;
     font-weight: 300;
     padding-right: 20%;
     margin-bottom: 30px;
@@ -126,7 +128,7 @@ ul li a {
 
 .button-standard {
     border-style: none;
-    background: linear-gradient(90deg, rgba(242,55,121,1) 28%, rgba(255,104,3,1) 100%);
+    background: linear-gradient(90deg, rgba(242,55,121,1) 28%, rgba(255,104,3,1) 78%);
     height: 35px;
     font-weight: 300;
     font-style: light;
@@ -162,4 +164,52 @@ ul li a {
     z-index: -1;
 
 }
-/* Showcase-2 ends */
+/* Showcase-1 ends */
+
+/* Showcase 2 start */
+#showcase-2 {
+    margin-top: 50px;
+    display: grid;
+    height: auto;
+    grid-template-columns: auto 200px 200px;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    align-content: center;
+    column-gap: 80px;
+    /* column-width: 50px; */
+}
+
+#box1-s2 {
+    grid-row: 1/3;
+    height: auto;
+    padding-right: 50px;
+}
+
+.grid-text-small {
+    font-size: 0.8rem;
+    color: #57647C;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.grid-box h2 {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.grid-box {
+    /* width: 300px; */
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.grid-box h1 {
+    margin-bottom: 20px;
+    padding-right: 200px;
+}
+
+#view-all {
+    width: 125px;
+}
+/* Showcase 2 end */
